@@ -24,6 +24,7 @@
 
 ## 📦 Open Source
 
+- 🛡️ **[AbilityGuard](https://github.com/ibrahimhajjaj/abilityguard)** · PHP. Safety, snapshot, audit, and rollback middleware for WordPress's Abilities API (WP 6.9+). Plugin authors add a `safety` config to `wp_register_ability()`; AbilityGuard captures pre/post snapshots, logs every invocation, and ships one-click rollback. Submitted to wp.org; upstream proposal to WP core in progress.
 - 📱 **[wu-cli](https://github.com/ibrahimhajjaj/wu-cli)** · **★7** · TypeScript. "gh for WhatsApp." Baileys-based CLI with MCP server integration so Claude Code can drive it. [On npm](https://www.npmjs.com/package/@ibrahimwithi/wu-cli).
 - 🤖 **[wa-agent](https://github.com/ibrahimhajjaj/wa-agent)** · **★6** · TypeScript. Framework for building autonomous AI agents on WhatsApp. YAML-configured personalities, Vercel AI SDK, multi-agent routing, conversation memory with windowing + summarization.
 - 📸 **[ig-dl](https://github.com/ibrahimhajjaj/ig-dl)** · Go. Instagram downloader as a single Go binary: CLI **+** MCP server in one executable. Attaches to a running Chrome over CDP for session capture; smart routing between yt-dlp and gallery-dl.
