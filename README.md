@@ -20,14 +20,18 @@
 ## 🚢 Currently Building
 
 - 🛡️ **[SafeGuard](https://safeguard.verdelic.com)** · WordPress backup plugin. PHP + React plugin, Next.js 16 licensing dashboard, Postgres, Docker on Hetzner. **40+ beta users · 470+ tests.**
+- 📝 **[Psst](https://getpsst.app)** · Shared lists and tasks that stay in sync without every person needing an account. React Native, live on the **App Store and Google Play**.
 - 🌀 **SpinStack** _(in development)_ · AI-driven WordPress hosting platform. Automates provisioning, scaling and site operations.
 
 ## 📦 Open Source
 
-- 🛡️ **[AbilityGuard](https://github.com/ibrahimhajjaj/abilityguard)** · PHP. Safety, snapshot, audit, and rollback middleware for WordPress's Abilities API (WP 6.9+). Plugin authors add a `safety` config to `wp_register_ability()`; AbilityGuard captures pre/post snapshots, logs every invocation, and ships one-click rollback. Submitted to wp.org; upstream proposal to WP core in progress.
-- 📱 **[wu-cli](https://github.com/ibrahimhajjaj/wu-cli)** · **★7** · TypeScript. "gh for WhatsApp." Baileys-based CLI with MCP server integration so Claude Code can drive it. [On npm](https://www.npmjs.com/package/@ibrahimwithi/wu-cli).
-- 🤖 **[wa-agent](https://github.com/ibrahimhajjaj/wa-agent)** · **★6** · TypeScript. Framework for building autonomous AI agents on WhatsApp. YAML-configured personalities, Vercel AI SDK, multi-agent routing, conversation memory with windowing + summarization.
+- 🔍 **[Lucid Search & Replace](https://wordpress.org/plugins/lucid-search-replace/)** · **live on wordpress.org** · PHP. Database find and replace that previews every match before it writes and can undo the run afterwards. Rewrites PHP-serialized values by length rather than by regex, so widget and page-builder data survives a site migration instead of silently corrupting.
+- 🛡️ **[AbilityGuard](https://wordpress.org/plugins/ability-guard/)** · **live on wordpress.org** · PHP. Safety, snapshot, audit, and rollback middleware for WordPress's Abilities API (WP 6.9+). Plugin authors add a `safety` config to `wp_register_ability()`; AbilityGuard captures pre/post snapshots, logs every invocation, and ships one-click rollback. Upstream proposal to WP core in progress. [Source](https://github.com/ibrahimhajjaj/abilityguard).
+- 📱 **[wu-cli](https://github.com/ibrahimhajjaj/wu-cli)** · **★14** · TypeScript. "gh for WhatsApp." Baileys-based CLI with MCP server integration so Claude Code can drive it. [On npm](https://www.npmjs.com/package/@ibrahimwithi/wu-cli).
+- 🤖 **[wa-agent](https://github.com/ibrahimhajjaj/wa-agent)** · **★11** · TypeScript. Framework for building autonomous AI agents on WhatsApp. YAML-configured personalities, Vercel AI SDK, multi-agent routing, conversation memory with windowing + summarization.
 - 📸 **[ig-dl](https://github.com/ibrahimhajjaj/ig-dl)** · Go. Instagram downloader as a single Go binary: CLI **+** MCP server in one executable. Attaches to a running Chrome over CDP for session capture; smart routing between yt-dlp and gallery-dl.
+- 💬 **[recourse](https://github.com/ibrahimhajjaj/recourse)** · TypeScript. Self-hosted customer support agent that answers from your own docs and cites the page it used, so an answer can be checked. Hands a conversation to a person with the summary, the mood and what was already tried. Runs on D1 or Postgres. [Live demo](https://recourse-demo.ibrhajjaj.workers.dev).
+- 📊 **[seo-console-mcp](https://github.com/ibrahimhajjaj/seo-console-mcp)** · TypeScript. One MCP server over Google Search Console, App Store Connect and Google Play, so an agent can read the search and store numbers itself. Also a CLI.
 - 🐚 **[clack-bash](https://github.com/ibrahimhajjaj/clack-bash)** · **★1** · Shell. Clack-style interactive prompts, pure Bash.
 
 ## 🤝 Upstream Contributions
